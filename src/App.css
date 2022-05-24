@@ -1,0 +1,151 @@
+/* body {
+  margin: 0px;
+  padding: 0px;
+}
+.menu{
+  text-decoration: none;
+  color: black;
+}
+
+ .menu {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  margin-left: 33%;
+  margin-right: 10%;
+}
+.menus{
+  width: 8%;
+  margin: auto;
+}
+.mainDiv{
+  width: 100%;
+  margin: auto;
+}
+ .menu:hover {
+   width: 70%;
+   height: 40px;
+  background: rgb(244, 14, 14);
+  border-radius: 10%;
+  text-align: center;
+}
+.button1{
+  display: block;
+  background: none 0% 0% repeat scroll rgb(51, 153, 204);
+  border-radius: 50px;
+  margin-right: 20px;
+  border: 2px solid #0E90F6;
+  color: white;
+}
+.button2{
+  display: block;
+  background: none 0% 0% repeat scroll rgb(102, 189, 4);
+  border-radius: 50px;
+  margin-right: 20px;
+  border: 2px solid #0E90F6;
+  color: white;
+}
+.button3{
+  background: rgb(102, 189, 4);
+  width:70%;
+  border: 2px solid #0E90F6;
+}
+.button4{
+  background: #0E90F6;
+  width:75%;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  color: black;
+  margin-left: 30%;
+}
+ */
+ body {
+  margin: 0px;
+  padding: 0px;
+} 
+ .topnav {
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav-right a {
+float: left;
+color: #080000;
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+font-size: 15px;
+margin-top: 2px;
+}
+/* Change the color of links on hover */
+.topnav-right a:hover {
+background-color: rgb(250, 9, 9);
+border-radius: 5%;
+height: 40px;
+}
+.topnav-right {
+float: right;
+margin-right: 5%;
+}
+.header{
+  text-align: center;
+}
+
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.carousel-item{
+  min-height: 280px;
+}
